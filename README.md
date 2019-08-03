@@ -16,7 +16,7 @@ We provide a complete usage pretrained models for our paper.
 
 More models will come soon. BTW, if you want a pretrained model for some specific datasets, please be free to post a issue in our repo.
 
-Here is our paper on the arXiv.org: [ABD-Net]()
+[ABD-Net: Attentive but Diverse Person Re-Identification]()
 
 Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zhou Ren, Zhangyang Wang
 
