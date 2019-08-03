@@ -1,12 +1,6 @@
 # ABD-Net: Attentive but Diverse Person Re-Identification
 
-Refer to Training Guides README at [here](./README_Training_Guides.md).
-
-Refer to original README at [here](./README_ORIG.md).
-
-Refer to Datasets README at [here](./DATASETS.md).
-
-Refer to Model ZOO README at [here](./MODEL_ZOO.md).
+Refer to Training Guides README at [here](./README_Training_Guides.md), original README at [here](./README_ORIG.md), datasets README at [here](./DATASETS.md), Model ZOO README at [here](./MODEL_ZOO.md).
 
 We provide a complete usage pretrained models for our paper.
 
