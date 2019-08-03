@@ -1,6 +1,6 @@
 # Data Preparation and Miscs
 
-Refer to original README at [here](./README_ORIG.md).
+Refer to original README [here](./README_ORIG.md).
 
 # Cython Evalution
 
