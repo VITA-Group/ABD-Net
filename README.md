@@ -24,10 +24,6 @@ Here are the visualization of attention maps. (i) Original images; (ii) Attentiv
 
 ![](./doc_images/JET_VIS.png)
 
-Here are the visualization of correlation matrix between channels from Baseline, Baseline + PAM + CAM and ABD-Net (XE). Brighter color indicates larger correlation.
-
-![](./doc_images/corr1.png)
-
 
 
 ## Methods
@@ -44,11 +40,15 @@ Here are the detailed structure of CAM (Channel Attention Module) and PAM (Posit
 
 ## Results
 
-We compare ABD-Net against the state-of-the-art methods on Market-1501,  DukeMTMC-Re-ID and MSMT17 as shown in Table 2, 3 and 4.
+Our proposed ABD-Net achieve the state-of-the-art methods Market-1501, DukeMTMC-Re-ID and MSMT17 datasets. The detailed comparison with previous SOTA can be found in [our paper](https://arxiv.org/abs/1908.01114).
 
-![](./doc_images/res.png)
+|    Dataset     | Top-1 |  mAP  |
+| :------------: | :---: | :---: |
+|  Market-1501   | 95.60 | 88.28 |
+| DukeMTMC-Re-ID | 89.00 | 78.59 |
+|     MSMT17     | 82.30 | 60.80 |
 
-Here are the Re-ID qualitative results as shown in Fig. 9. Here are 12 Re-ID examples of ABD-Net (XE), Baseline + PAM + CAM and Baseline on Market-1501. Left: query image. Right: i): top-5 results of ABD-Net (XE). ii): top-5 results of Baseline + PAM + CAM. iii): top-5 results of Baseline. Images in red boxes are negative results.
+Here are three Re-ID examples of ABD-Net (XE), Baseline + PAM + CAM and Baseline on Market-1s501. Left: query image. Right: i): top-5 results of ABD-Net (XE). ii): top-5 results of Baseline + PAM + CAM. iii): top-5 results of Baseline. Images in red boxes are negative results.
 
 ![](./doc_images/qr.png)
 
