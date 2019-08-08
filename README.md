@@ -1,5 +1,11 @@
 # ABD-Net: Attentive but Diverse Person Re-Identification
 
+[ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114)
+
+Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zhou Ren, Zhangyang Wang
+
+In ICCV 2019
+
 Refer to Training Guides README [here](./README_Training_Guides.md), original README [here](./README_ORIG.md), datasets README [here](./DATASETS.md), Model ZOO README [here](./MODEL_ZOO.md).
 
 We provide complete usage pretrained models for our paper.
@@ -9,12 +15,6 @@ We provide complete usage pretrained models for our paper.
 - MSMT17 [best ABD-Net model](https://drive.google.com/file/d/1_ZpSfOxrid9xpSecAxEA2WAa6h-uWc1O/view?usp=sharing)
 
 More models will come soon. If you want a pretrained model for some specific datasets, please be free to post an issue in our repo.
-
-[ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114)
-
-Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zhou Ren, Zhangyang Wang
-
-In ICCV 2019
 
 ## Overview
 
