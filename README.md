@@ -60,11 +60,14 @@ If you use this code for your research, please cite our paper.
 
 ```
 ​```
-@inproceedings{,
-  title={ABD-Net: Attentive but Diverse Person Re-Identification},
-  author={},
-  booktitle={},
-  year={2019}
+@misc{chen2019abdnet,
+    title={ABD-Net: Attentive but Diverse Person Re-Identification},
+    author={Tianlong Chen and Shaojin Ding and Jingyi Xie and Ye Yuan and Wuyang Chen and Yang Yang and Zhou Ren and Zhangyang Wang},
+    year={2019},
+    eprint={1908.01114},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ​```
 ```
+
