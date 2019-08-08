@@ -1,6 +1,6 @@
 # ABD-Net: Attentive but Diverse Person Re-Identification
 
-[ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114)
+Code for this paper [ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114)
 
 Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zhou Ren, Zhangyang Wang
 
