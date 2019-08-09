@@ -40,7 +40,7 @@ Here are the detailed structure of CAM (Channel Attention Module) and PAM (Posit
 
 ## Results
 
-Our proposed ABD-Net achieve the state-of-the-art methods Market-1501, DukeMTMC-Re-ID and MSMT17 datasets. The detailed comparison with previous SOTA can be found in [our paper](https://arxiv.org/abs/1908.01114).
+Our proposed ABD-Net achieves the state-of-the-art methods Market-1501, DukeMTMC-Re-ID and MSMT17 datasets. The detailed comparison with previous SOTA can be found in [our paper](https://arxiv.org/abs/1908.01114).
 
 |    Dataset     | Top-1 |  mAP  |
 | :------------: | :---: | :---: |
