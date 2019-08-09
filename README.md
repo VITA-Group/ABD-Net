@@ -6,7 +6,7 @@ Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zh
 
 In ICCV 2019
 
-Refer to Training Guides README [here](./README_Training_Guides.md), original README [here](./README_ORIG.md), datasets README [here](./DATASETS.md), Model ZOO README [here](./MODEL_ZOO.md).
+Refer to **Training Guides README** [here](./README_Training_Guides.md), original README [here](./README_ORIG.md), datasets README [here](./DATASETS.md), Model ZOO README [here](./MODEL_ZOO.md).
 
 We provide complete usage pretrained models for our paper.
 
@@ -60,13 +60,12 @@ If you use this code for your research, please cite our paper.
 
 ```
 ​```
-@misc{chen2019abdnet,
-    title={ABD-Net: Attentive but Diverse Person Re-Identification},
-    author={Tianlong Chen and Shaojin Ding and Jingyi Xie and Ye Yuan and Wuyang Chen and Yang Yang and Zhou Ren and Zhangyang Wang},
-    year={2019},
-    eprint={1908.01114},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{Chen_2019_ICCV,
+author = {Tianlong Chen and Shaojin Ding and Jingyi Xie and Ye Yuan and Wuyang Chen and Yang Yang and Zhou Ren and Zhangyang Wang},
+title = {ABD-Net: Attentive but Diverse Person Re-Identification},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2019}
 }
 ​```
 ```
