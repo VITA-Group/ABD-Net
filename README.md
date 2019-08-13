@@ -32,7 +32,7 @@ Here are the visualization of attention maps. (i) Original images; (ii) Attentiv
 
 We add a CAM (Channel Attention Module) and O.F. on the outputs of res\_conv\_2 block. The regularized feature map is used as the input of res\_conv\_3. Next, after the res\_conv\_4 block, the network splits into a **global branch** and an **attentive branch** in parallel. We apply O.W. on all conv layers in our ResNet-50 backbone, i.e.​, from res\_conv\_1 to res\_conv\_4 and the two res\_conv\_5 in both branches. The outputs of two branches are concatenated as the final feature embedding. 
 
-Here are the detailed structure of CAM (Channel Attention Module) and PAM (Position Attention Module).
+Here are the detailed structures of CAM (Channel Attention Module) and PAM (Position Attention Module).
 
 ![](./doc_images/att.png)
 
