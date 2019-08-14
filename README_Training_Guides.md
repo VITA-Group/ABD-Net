@@ -19,22 +19,22 @@ python train.py -s market1501 -t market1501 \
     --label-smooth \
     --criterion htri \
     --lambda-htri 0.1  \
-    --data-augment none \
+    --data-augment crop random-erase \
     --margin 1.2 \
     --train-batch-size 64 \
-    --height 224 \
-    --width 224 \
+    --height 384 \
+    --width 128 \
     --optim adam --lr 0.0003 \
     --stepsize 20 40 \
-     --gpu-devices 4,5 \
-     --max-epoch 80 \
-     --save-dir path/to/dir \
-     --arch resnet50 \
-     --use-of \
-     --abd-dan cam pam \
-     --abd-np 2 \
-     --shallow-cam \
-     --use-ow
+    --gpu-devices 4,5 \
+    --max-epoch 80 \
+    --save-dir path/to/dir \
+    --arch resnet50 \
+    --use-of \
+    --abd-dan cam pam \
+    --abd-np 2 \
+    --shallow-cam \
+    --use-ow
 ```
 
 ## Criterion
