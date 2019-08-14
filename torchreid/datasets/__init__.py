@@ -19,17 +19,10 @@ from .mars import Mars
 from .ilidsvid import iLIDSVID
 from .prid2011 import PRID2011
 from .dukemtmcvidreid import DukeMTMCVidReID
-from .valset import ValSet
-from .aicity19 import AICity19
-from .aicity19_split import AICity19Split
-from .veri import VeRi
 
 __imgreid_factory = {
     'market1501': Market1501,
     'market1501_d': Market1501_D,
-    'aicity19': AICity19,
-    'aicity19_split': AICity19Split,
-    'veri': VeRi,
     'cuhk03': CUHK03,
     'dukemtmcreid': DukeMTMCreID,
     'dukemtmcreid_d': DukeMTMCreID_D,
@@ -40,7 +33,6 @@ __imgreid_factory = {
     'prid450s': PRID450S,
     'ilids': iLIDS,
     'sensereid': SenseReID,
-    'valset': ValSet,
 }
 
 
