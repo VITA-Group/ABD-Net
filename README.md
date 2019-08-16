@@ -1,5 +1,7 @@
 # ABD-Net: Attentive but Diverse Person Re-Identification
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/abd-net-attentive-but-diverse-person-re/person-re-identification-on-msmt17)](https://paperswithcode.com/sota/person-re-identification-on-msmt17?p=abd-net-attentive-but-diverse-person-re) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/abd-net-attentive-but-diverse-person-re/person-re-identification-on-dukemtmc-reid)](https://paperswithcode.com/sota/person-re-identification-on-dukemtmc-reid?p=abd-net-attentive-but-diverse-person-re) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/abd-net-attentive-but-diverse-person-re/person-re-identification-on-market-1501)](https://paperswithcode.com/sota/person-re-identification-on-market-1501?p=abd-net-attentive-but-diverse-person-re)
+
 Code for this paper [ABD-Net: Attentive but Diverse Person Re-Identification](https://arxiv.org/abs/1908.01114)
 
 Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zhou Ren, Zhangyang Wang
