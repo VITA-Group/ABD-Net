@@ -19,26 +19,12 @@ from .hacnn import *
 from .pcb import *
 from .mlfn import *
 
-from . import resnet_best
-from . import resnet_mgn_abd
-# from .densenet_DAN import *
-# from .densenet_DAN_cat import *
-# from .densenet_cl import *
-# from .densenet_CAM_cat import *
-# from .cltmp.densenet_cl import *
-
 from . import densenet, resnet
 
 __model_factory = {
     **densenet.model_mapping,
     'resnet50': resnet.resnet50,
     'resnet50_mgn_like': resnet.resnet50_mgn_like,
-    # **resnet.name_function_mapping,
-    **resnet_mgn_abd.name_function_mapping,
-    'resnet50_best': resnet_best.resnet50_best,
-    # image classification models
-    # 'resnet50': resnet50,
-    # 'resnet50_fc512': resnet50_fc512,
     'resnext50_32x4d': resnext50_32x4d,
     'resnext101_32x4d': resnext101_32x4d,
     'se_resnet50': se_resnet50,
@@ -46,8 +32,6 @@ __model_factory = {
     'se_resnet101': se_resnet101,
     'se_resnext50_32x4d': se_resnext50_32x4d,
     'se_resnext101_32x4d': se_resnext101_32x4d,
-    # 'densenet121': densenet121,
-    # 'densenet121_fc512': densenet121_fc512,
     'inceptionresnetv2': InceptionResNetV2,
     'inceptionv4': inceptionv4,
     'xception': xception,
