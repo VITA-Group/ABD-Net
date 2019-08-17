@@ -127,7 +127,7 @@ def build_training_transforms(height, width, data_augment):
     imagenet_std = [0.229, 0.224, 0.225]
     normalize = Normalize(mean=imagenet_mean, std=imagenet_std)
 
-    data_augment = set(data_augment.split(','))
+    data_augment = set(data_augment)
     print('Using augmentation:', data_augment)
 
     transforms = []
