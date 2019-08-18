@@ -8,7 +8,7 @@ Tianlong Chen, Shaojin Ding\*, Jingyi Xie\*, Ye Yuan, Wuyang Chen, Yang Yang, Zh
 
 In ICCV 2019
 
-Refer to **Training Guides README** [here](./README_Training_Guides.md), original README [here](./README_ORIG.md), datasets README [here](./DATASETS.md), Model ZOO README [here](https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO.html).
+Refer to **Training Guides README** [here](./README_Training_and_Testing_Guides.md), original README [here](./README_ORIG.md), datasets README [here](./DATASETS.md), Model ZOO README [here](https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO.html).
 
 We provide complete usage pretrained models for our paper.
 
