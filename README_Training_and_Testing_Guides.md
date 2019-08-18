@@ -37,6 +37,8 @@ python train.py -s market1501 -t market1501 \
     --use-ow
 ```
 
+**For testing, add extra arguments `--evaluate --load-weights path/to/checkpoint.pth.tar`**.
+
 ## Criterion
 
  + `--criterion`. May be `xent`, `htri`.
