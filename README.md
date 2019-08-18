@@ -13,7 +13,7 @@ Refer to **Training Guides README** [here](./README_Training_and_Testing_Guides.
 We provide complete usage pretrained models for our paper.
 
 - Market1501 [best ABD-Net model](https://drive.google.com/file/d/13bvg8LUD7JinC-usAQyE2ys9zxo4P97e/view?usp=sharing)
-- Duke [best ABD-Net model](https://drive.google.com/file/d/1wQtbi8gBe_oMLc9GvDXrGF5yRBoz51o_/view?usp=sharing)
+- Duke [best ABD-Net model](https://drive.google.com/file/d/1ojw0wva6ZlcY0v4UjiwesCyiFonZgBz8/view?usp=sharing)
 - MSMT17 [best ABD-Net model](https://drive.google.com/file/d/1_ZpSfOxrid9xpSecAxEA2WAa6h-uWc1O/view?usp=sharing)
 
 More models will come soon. If you want a pretrained model for some specific datasets, please be free to post an issue in our repo.
