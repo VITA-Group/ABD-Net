@@ -37,7 +37,7 @@ class SVDORegularizer(nn.Module):
         Ax = (A @ x)
         AAx = (A @ Ax)
 
-        return AAx.permute(1, 0) @ Ax / (Ax.permute(1, 0) @ Ax)
+        return AAx.permute(1, 0) @ AAx / (Ax.permute(1, 0) @ Ax)
 
         # for _ in range(1):
         #     x = A @ x
