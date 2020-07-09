@@ -98,6 +98,10 @@ def main():
         pretrain_dict = checkpoint['state_dict']
         model_dict = model.state_dict()
         pretrain_dict = {k: v for k, v in pretrain_dict.items() if k in model_dict and model_dict[k].size() == v.size()}
+        not_in_model = {k: v for k, v in pretrain_dict.items() if k not in model_dict}
+        wrong_size = {k: v for k, v in pretrain_dict.items() if k in model_dict and model_dict[k].size() != v.size()}
+        print('The following layers from the checkpoint will not be loaded, because they were not found in the model: {}'.format(not_in_model.keys()))
+        print('The following layers from the checkpoint will not be loaded, because they have a different size in the model: {}'.format(wrong_size.keys()))
         model_dict.update(pretrain_dict)
         model.load_state_dict(model_dict)
         print("Loaded pretrained weights from '{}'".format(args.load_weights))
