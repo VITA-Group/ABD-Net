@@ -327,7 +327,6 @@ def test(model, queryloader, galleryloader, use_gpu, ranks=[1, 5, 10, 20], retur
             enumerator = enumerate(galleryloader[0])
 
         for batch_idx, package in enumerator:
-            # print('fuck')
             end = time.time()
 
             if flip_eval:
