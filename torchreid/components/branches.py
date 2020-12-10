@@ -26,7 +26,7 @@ class MultiBranchNetwork(nn.Module):
 
     def _get_branches(self, backbone, args) -> list:
 
-        branch_names = frozenset(args['branches'])
+        branch_names = tuple(args['branches'])
         branch_list = []
 
         for branch_name in branch_names:
